@@ -1,5 +1,4 @@
 (async () => {
-  // Wait a bit to let Creep load
   await new Promise(resolve => setTimeout(resolve, 250));
 
   const creep = new Creep();
